@@ -19,7 +19,3 @@ endpoints:
     # +required Type of traffic that the endpoint is accepting
     # Allowed values: REST, GraphQL, gRPC, TCP, UDP, HTTP, Websocket
     type: REST
-    # +optional The path to the schema definition file
-    # This is applicable to REST, GraphQL, and gRPC endpoint types
-    # The path should be relative to the workload.yaml file location
-    schemaFile: openapi.yaml
